@@ -27,9 +27,6 @@ interests:
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
   - course: MSc in Applied Physics & Electrical Engineering
     institution: Linköping University
     year: 2020
@@ -58,7 +55,7 @@ social:
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 - icon: cv
   icon_pack: ai
-  link: static/files/CV_current.pdf
+  link: files/CV_current.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
