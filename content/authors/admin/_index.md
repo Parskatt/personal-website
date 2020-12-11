@@ -67,4 +67,4 @@ user_groups:
 - Visitors
 ---
 
-Johan Edstedt is... TODO :)
+Hi! I'm a Research Assistant at CVL@LiU, doing research on Visual Representations for Computer Vision.
