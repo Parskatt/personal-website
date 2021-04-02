@@ -39,23 +39,25 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+- icon: github
+  icon_pack: fab
+  link: https://github.com/parskatt
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=Ul-vMR0AAAAJ
+- icon: cv
+  icon_pack: ai
+  link: files/CV_current.pdf
 #- icon: envelope
 #  icon_pack: fas
 #  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 #- icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/GeorgeCushen
-#- icon: google-scholar
-#  icon_pack: ai
-#  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/parskatt
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-- icon: cv
-  icon_pack: ai
-  link: files/CV_current.pdf
+
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -67,4 +69,5 @@ user_groups:
 - Visitors
 ---
 
-Hi! I'm a Research Assistant at CVL@LiU, doing research on Visual Representations for Computer Vision.
+Hi! I'm a PhD student at the Computer Vision Laboratory in Linköping University.
+I'm interested in  visually constrained learning for computer vision.
