@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Research Assistant
+role: PhD Student
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Neural Network architectures, implicit models, and generative models.
+bio: I like 3D Vision
 
 interests:
 - Artificial Intelligence
@@ -27,6 +27,9 @@ interests:
 
 education:
   courses:
+  - course: PhD Student in Computer Vision
+    institution: Linköping University
+    year: 2021-
   - course: MSc in Applied Physics & Electrical Engineering
     institution: Linköping University
     year: 2020
