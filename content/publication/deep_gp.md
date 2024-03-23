@@ -1,6 +1,6 @@
 +++
-title = "Deep Gaussian Processes for Few-Shot Segmentation"
-date = "2021-03-30"
+title = "Dense gaussian processes for few-shot segmentation"
+date = "2022-10-22"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["J Johnander", "J Edstedt", "M Danelljan","M Felsberg", "F Khan"]
@@ -17,11 +17,11 @@ authors = ["J Johnander", "J Edstedt", "M Danelljan","M Felsberg", "F Khan"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Preprint, 2021"
+publication = "ECCV, 2022"
 #publication_short = "Arxiv Preprint"
 
 # Abstract and optional shortened version.
-abstract = "Few-shot segmentation is a challenging task, requiring the extraction of a generalizable representation from only a few annotated samples, in order to segment novel query images. A common approach is to model each class with a single prototype. While conceptually simple, these methods suffer when the target appearance distribution is multimodal or not linearly separable in feature space. To tackle this issue, we propose a few-shot learner formulation based on Gaussian process (GP) regression. Through the expressivity of the GP, our approach is capable of modeling complex appearance distributions in the deep feature space. The GP provides a principled way of capturing uncertainty, which serves as another powerful cue for the final segmentation, obtained by a CNN decoder. We further exploit the end-to-end learning capabilities of our approach to learn the output space of the GP learner, ensuring a richer encoding of the segmentation mask. We perform comprehensive experimental analysis of our few-shot learner formulation. Our approach sets a new state-of-theart for 5-shot segmentation, with mIoU scores of 68.1 and 49.8 on PASCAL-5i and COCO-20i, respectively."
+abstract = "Few-shot segmentation is a challenging dense prediction task, which entails segmenting a novel query image given only a small annotated support set. The key problem is thus to design a method that aggregates detailed information from the support set, while being robust to large variations in appearance and context. To this end, we propose a few-shot segmentation method based on dense Gaussian process (GP) regression. Given the support set, our dense GP learns the mapping from local deep image features to mask values, capable of capturing complex appearance distributions. Furthermore, it provides a principled means of capturing uncertainty, which serves as another powerful cue for the final segmentation, obtained by a CNN decoder. Instead of a one-dimensional mask output, we further exploit the end-to-end learning capabilities of our approach to learn a high-dimensional output space for the GP. Our approach sets a new state-of-the-art on the PASCAL-5i and COCO-20i benchmarks, achieving an absolute gain of +8.4 mIoU in the COCO-20i 5-shot setting. Furthermore, the segmentation quality of our approach scales gracefully when increasing the support set size, while achieving robust cross-dataset transfer. Code and trained models are available at https://github.com/joakimjohnander/dgpnet."
 
 
 # Featured image thumbnail (optional)
