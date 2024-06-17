@@ -54,9 +54,9 @@ social:
 #- icon: envelope
 #  icon_pack: fas
 #  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-#- icon: twitter
-#  icon_pack: fab
-#  link: https://twitter.com/GeorgeCushen
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/parskatt
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -72,5 +72,4 @@ user_groups:
 - Visitors
 ---
 
-Hi! I'm a PhD student at the Computer Vision Laboratory in Linköping University.
-I'm interested in  visually constrained learning for computer vision.
+Hi! I'm a PhD student at the Computer Vision Laboratory @ Linköping University.
