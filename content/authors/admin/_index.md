@@ -21,7 +21,6 @@ organizations:
 bio: I like 3D Vision
 
 interests:
-- Artificial Intelligence
 - Computer Vision
 - Neural Networks
 
@@ -51,9 +50,9 @@ social:
 - icon: cv
   icon_pack: ai
   link: files/CV_current.pdf
-#- icon: envelope
-#  icon_pack: fas
-#  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+- icon: envelope
+  icon_pack: fas
+  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/parskatt
