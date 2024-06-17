@@ -24,7 +24,7 @@ abstract = "Few-shot segmentation is a challenging dense prediction task, which 
 
 
 # Featured image thumbnail (optional)
-image_preview = "img/deep_gp.png"
+image_preview = "img/dense_gp.jpg"
 
 # Is this a selected publication? (true/false)
 selected = true
@@ -53,7 +53,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "img/deep_gp.png"
+image = "img/dense_gp.jpg"
 caption = "asd"
 
 +++

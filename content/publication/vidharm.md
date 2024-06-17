@@ -24,7 +24,7 @@ abstract = "Automatically identifying harmful content in video is an important t
 
 
 # Featured image thumbnail (optional)
-image_preview = "img/deep_gp.png"
+image_preview = "img/vidharm.jpg"
 
 # Is this a selected publication? (true/false)
 selected = true
