@@ -24,7 +24,7 @@ abstract = "Few-shot segmentation is a challenging dense prediction task, which 
 
 
 # Featured image thumbnail (optional)
-image_preview = "deep_gp.png"
+image_preview = "img/deep_gp.png"
 
 # Is this a selected publication? (true/false)
 selected = true
@@ -38,7 +38,7 @@ projects = []
 url_pdf = "https://arxiv.org/abs/2103.16549"
 # url_dataset = "#"
 # url_project = "#"
-# url_source = "#"
+url_source = "https://github.com/joakimjohnander/DGPNet"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
