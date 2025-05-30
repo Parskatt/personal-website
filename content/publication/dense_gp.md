@@ -3,7 +3,7 @@ title = "Dense gaussian processes for few-shot segmentation"
 date = "2022-10-22"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["J Johnander", "J Edstedt", "M Danelljan","M Felsberg", "F Khan"]
+authors = ["admin"]
 
 # Publication type.
 # Legend:
@@ -51,7 +51,7 @@ math = true
 highlight = true
 
 # Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
+# Place your image in the `static/media/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
 image = "img/dense_gp.jpg"
 caption = "asd"

@@ -3,7 +3,7 @@ title = "VidHarm: A dataset for detection of harmful content in video"
 date = "2022-08-23"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Johan Edstedt", "Amanda Berg", "Michael Felsberg", "Johan Karlsson", "Francisca Benavente", "Anette Novak", "Gustav Grund Pihlgren"]
+authors = ["admin"]
 
 # Publication type.
 # Legend:
@@ -24,7 +24,7 @@ abstract = "Automatically identifying harmful content in video is an important t
 
 
 # Featured image thumbnail (optional)
-image_preview = "img/vidharm.jpg"
+image_preview = ""
 
 # Is this a selected publication? (true/false)
 selected = true
@@ -53,7 +53,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "img/vidharm.png"
-caption = "asd"
+image = ""
+caption = ""
 
 +++

@@ -3,7 +3,7 @@ title = "DKM: Dense Kernelized Matching for Geometry Estimation"
 # date = "2022-10-22"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Johan Edstedt"]
+authors = ["admin"]
 
 # Publication type.
 # Legend:
@@ -24,7 +24,7 @@ publication = "CVPR, 2023"
 
 
 # Featured image thumbnail (optional)
-image_preview = "img/dkm.jpg"
+image_preview = ""
 
 # Is this a selected publication? (true/false)
 selected = true
@@ -53,7 +53,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "img/dkm.jpg"
-caption = "asd"
+image = ""
+caption = ""
 
 +++

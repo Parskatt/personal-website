@@ -3,7 +3,7 @@ title = "Towards Understanding Capsule Networks"
 date = "2021-03-30"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["J Edstedt"]
+authors = ["admin"]
 
 # Publication type.
 # Legend:
