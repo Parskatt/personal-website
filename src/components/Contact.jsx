@@ -64,26 +64,26 @@ const Contact = () => {
   ]
 
   return (
-    <section id="contact" className="py-20 px-4 bg-slate-700/10">
+    <section id="contact" className="py-20 px-4 bg-amber-100/40">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-slate-700 text-center mb-16">
+        <h2 className="text-4xl md:text-5xl font-bold text-stone-800 text-center mb-16">
           Contact Info and CV
         </h2>
         
         <div className="grid md:grid-cols-2 gap-12">
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-semibold text-slate-700 mb-4">
+              <h3 className="text-2xl font-semibold text-stone-800 mb-4">
                 Let's work together.
               </h3>
-              <p className="text-slate-700 text-lg leading-relaxed">
+              <p className="text-stone-700 text-lg leading-relaxed">
                 I'm always open to new collaborations and opportunities. 
                 Feel free to reach out!
               </p>
             </div>
             
             <div className="space-y-4">
-              <h4 className="text-lg font-medium text-slate-700">Some social media:</h4>
+              <h4 className="text-lg font-medium text-stone-700">Some social media:</h4>
               <div className="flex space-x-4">
                 {socialLinks.map((link, index) => (
                   <a
@@ -91,7 +91,7 @@ const Contact = () => {
                     href={link.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-3 bg-white/5 border border-white/10 rounded-lg text-slate-700 hover:text-white hover:bg-emerald-500/20 hover:border-emerald-500/50 transition-all duration-300"
+                    className="p-3 bg-white/60 border border-amber-200/50 rounded-lg text-stone-600 hover:text-amber-700 hover:bg-amber-600/20 hover:border-amber-600/50 transition-all duration-300"
                     aria-label={link.name}
                   >
                     {link.icon}
@@ -99,15 +99,15 @@ const Contact = () => {
                 ))}
               </div>
             </div>
-        <h4 className="text-lg font-medium text-slate-700">
-          My CV (last updated: 2025-05-30):
+        <h4 className="text-lg font-medium text-stone-700">
+          My CV (last updated: 2026-01-23):
         </h4>
         {/* <div className="mb-8">
         </div> */}
 
         <button
           onClick={handleDownload}
-          className="inline-flex items-center gap-2 bg-slate-700 hover:bg-slate-800 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
+          className="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
         >
           <svg 
             className="w-5 h-5" 
@@ -130,7 +130,7 @@ const Contact = () => {
           <form onSubmit={handleSubmit} className="space-y-6" name="contact" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="contact" />
             <div>
-              <label htmlFor="name" className="block text-sm font-medium text-slate-700 mb-2">
+              <label htmlFor="name" className="block text-sm font-medium text-stone-700 mb-2">
                 Name
               </label>
               <input
@@ -140,13 +140,13 @@ const Contact = () => {
                 value={formData.name}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-3 bg-white border border-white/10 rounded-lg text-slate-700 placeholder-slate-400 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-colors"
+                className="w-full px-4 py-3 bg-white border border-amber-200 rounded-lg text-stone-700 placeholder-stone-400 focus:outline-none focus:border-amber-600 focus:ring-1 focus:ring-amber-600 transition-colors"
                 placeholder="Your Name"
               />
             </div>
             
             <div>
-              <label htmlFor="email" className="block text-sm font-medium text-slate-700 mb-2">
+              <label htmlFor="email" className="block text-sm font-medium text-stone-700 mb-2">
                 Email
               </label>
               <input
@@ -156,13 +156,13 @@ const Contact = () => {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-3 bg-white border border-white/10 rounded-lg text-slate-700 placeholder-slate-400 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-colors"
+                className="w-full px-4 py-3 bg-white border border-amber-200 rounded-lg text-stone-700 placeholder-stone-400 focus:outline-none focus:border-amber-600 focus:ring-1 focus:ring-amber-600 transition-colors"
                 placeholder="your.email@example.com"
               />
             </div>
             
             <div>
-              <label htmlFor="message" className="block text-sm font-medium text-slate-700 mb-2">
+              <label htmlFor="message" className="block text-sm font-medium text-stone-700 mb-2">
                 Message
               </label>
               <textarea
@@ -172,17 +172,13 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 rows={5}
-                className="w-full px-4 py-3 bg-white border border-white/10 rounded-lg text-slate-700 placeholder-slate-400 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-colors resize-none"
-                placeholder="Tell me about your project or just say hello!"
+                className="w-full px-4 py-3 bg-white border border-amber-200 rounded-lg text-stone-700 placeholder-stone-400 focus:outline-none focus:border-amber-600 focus:ring-1 focus:ring-amber-600 transition-colors resize-none"
               />
             </div>
             
             <button
               type="submit"
-            // className="border-2 border-emerald-400 text-emerald-400 px-8 py-3 rounded-full font-semibold hover:bg-emerald-400 hover:text-white transition-all duration-300"
-              className="bg-emerald-400 text-white px-8 py-3 rounded-full font-semibold hover:bg-emerald-600 transition-all duration-300"
-              // className="w-full bg-gradient-to-r from-emerald-500 to-pink-500 text-white px-8 py-3 rounded-lg font-semibold hover:from-emerald-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105"
-              // className="w-full bg-gradient-to-r from-emerald-500 to-pink-500 text-white px-8 py-3 rounded-lg font-semibold hover:from-emerald-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105"
+              className="bg-amber-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-amber-700 transition-all duration-300"
             >
               Send Message
             </button>
@@ -190,7 +186,7 @@ const Contact = () => {
         </div>
         
         <div className="mt-16 text-center">
-          <p className="text-gray-400">
+          <p className="text-stone-500">
             © 2025 Johan Edstedt. Built with React & Tailwind CSS.
           </p>
         </div>

@@ -10,10 +10,10 @@ const Navigation = () => {
   }
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-slate-700/10 backdrop-blur-md border-b border-white/10">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-amber-100/70 backdrop-blur-md border-b border-amber-200/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="text-slate-700 font-bold text-xl">
+          <div className="text-stone-800 font-bold text-xl">
             Johan Edstedt
           </div>
           
@@ -24,7 +24,7 @@ const Navigation = () => {
                 <button
                   key={item}
                   onClick={() => scrollToSection(item.toLowerCase())}
-                  className="text-slate-700 hover:text-white px-3 py-2 text-sm font-medium transition-colors duration-200"
+                  className="text-stone-700 hover:text-amber-700 px-3 py-2 text-sm font-medium transition-colors duration-200"
                 >
                   {item}
                 </button>
@@ -36,7 +36,7 @@ const Navigation = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-300 hover:text-white p-2"
+              className="text-stone-600 hover:text-amber-700 p-2"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path
@@ -53,13 +53,13 @@ const Navigation = () => {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden bg-black/20 backdrop-blur-md">
+        <div className="md:hidden bg-amber-100/90 backdrop-blur-md">
           <div className="px-2 pt-2 pb-3 space-y-1">
             {['Home', 'About', 'Projects', 'Contact'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
-                className="text-slate-700 hover:text-white block px-3 py-2 text-base font-medium w-full text-left"
+                className="text-stone-700 hover:text-amber-700 block px-3 py-2 text-base font-medium w-full text-left"
               >
                 {item}
               </button>
