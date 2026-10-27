@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import CVFile from '../assets/CV_current.pdf'
+import CVFile from '../assets/cv-johan-edstedt-2026-10-27.pdf'
 
 const Contact = () => {
   const handleDownload = () => {
