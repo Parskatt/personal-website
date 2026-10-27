@@ -100,7 +100,7 @@ const Contact = () => {
               </div>
             </div>
         <h4 className="text-lg font-medium text-stone-700">
-          My CV (last updated: 2026-01-23):
+          My CV (last updated: 2026-10-27):
         </h4>
         {/* <div className="mb-8">
         </div> */}
