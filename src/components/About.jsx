@@ -34,21 +34,6 @@ const About = () => {
                 <li>Previously, I was a <b>PhD student</b> in Computer Vision at <b>Linköping University</b> (Graduated October 2025).</li>
               </ul>
             </p>
-            
-            
-            <div className="pt-6">
-              <h3 className="text-2xl font-semibold text-stone-800 mb-4">Skills & Technologies</h3>
-              <div className="flex flex-wrap gap-3">
-                {skills.map((skill, index) => (
-                  <span
-                    key={index}
-                    className="bg-amber-600/20 text-amber-700 px-4 py-2 rounded-full text-sm font-medium border border-amber-600/30 hover:bg-amber-600/30 transition-colors duration-200"
-                  >
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </div>
           </div>
         </div>
       </div>
